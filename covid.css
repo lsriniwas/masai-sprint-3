@@ -1,0 +1,248 @@
+#container {
+  width: 70%;
+  height: 70%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 99.5%;
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 98%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main-nav {
+  margin-top: -10px;
+  padding-left: 15px;
+  background-color: rgb(245, 58, 58);
+  border: 1px solid orange;
+  color: white;
+  margin-left: 180px;
+}
+
+.data-flex {
+  margin-left: 180px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+}
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6 {
+  color: white;
+  background-color: teal;
+  font-family: "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  height: 70px;
+  margin-left: 20px;
+  width: 25%;
+}
+.box1 .smallbox {
+  color: black;
+}
+.box2 .smallbox {
+  color: black;
+}
+.box3 .smallbox {
+  color: rgb(245, 63, 63);
+}
+.box4 .smallbox {
+  color: red;
+}
+.box5 .smallbox {
+  color: greenyellow;
+}
+.box6 .smallbox {
+  color: #2ed573;
+}
+.smallbox {
+  background-color: white;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-top: 10px;
+  align-content: center;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 750px) {
+  .data-flex {
+    font-size: 25px;
+    flex-direction: column;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    width: auto;
+  }
+  .smallbox {
+    font-size: 18px;
+  }
+}
+
+.overpage {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  align-content: center;
+  display: none;
+}
+
+.overpage div {
+  width: 60%;
+  margin: auto;
+}
+
+.overpage-in div {
+  padding: 15px;
+  color: black !important;
+  margin: 5px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.overpage-in div:nth-of-type(1) {
+  background-color: rgb(179, 179, 179);
+}
+.overpage-in div:nth-of-type(3) {
+  border: 3px solid black !important;
+}
+.overpage-in div:nth-of-type(4) {
+  border: 3px solid #ff4757 !important;
+}
+.overpage-in div:nth-of-type(5) {
+  border: 3px solid #2ed573 !important;
+}
+.overpage-in div:nth-of-type(6) {
+  border: 3px solid #2f3542 !important;
+}
+.overpage-in div:nth-of-type(7) {
+  border: 3px solid #ff6b81 !important;
+}
+.overpage-in div:nth-of-type(8) {
+  border: 3px solid #7bed9f !important;
+}
+.overpage-in div:nth-of-type(9) {
+  border: 3px solid #2f3542 !important;
+}
+
+.blue-dash {
+  width: 86%;
+  margin-left: 190px;
+  height: 543px;
+  padding: 10px;
+  background-image: linear-gradient(
+      rgb(115, 225, 245, 0.8),
+      rgb(115, 225, 245, 0.8)
+    ),
+    url("https://media4.s-nbcnews.com/i/newscms/2020_13/3286181/tw-deaths-social_6f50df22ffce17b4ca71d24b9be2fa05.png");
+  background-size: cover;
+  display: flex;
+}
+.inside-left {
+  width: 45%;
+}
+#search {
+  position: relative;
+  margin-left: 10px;
+  /* margin-top: 30px; */
+  padding: 5px;
+  width: 300px;
+  height: 25px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-left: 15px;
+}
+.search-box {
+  position: relative;
+  width: 300px;
+}
+
+.search-box img {
+  position: absolute;
+  top: 25%;
+  left: 290px;
+  background-color: white;
+}
+
+#search:hover {
+  border: 2px solid rgb(30, 157, 231);
+  box-shadow: 0.5px 0.5px 2px 2px rgb(30, 157, 231);
+}
+
+.search-table {
+  justify-content: space-between;
+  width: 400px;
+}
+
+.table-display {
+  overflow-y: scroll;
+}
+table {
+  margin-top: 10px;
+  width: 340px;
+
+  scrollbar-color: red yellow;
+}
+.scrollit {
+  width: 350px;
+  overflow: scroll;
+
+  height: 300px;
+}
+td {
+  background-color: rgb(255, 255, 255, 0.2);
+  width: 265px;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(255, 250, 250, 0.7);
+}
+
+ul {
+  margin-left: 50px;
+  background-color: rgb(255, 255, 255, 0.7);
+}
+
+.news {
+  width: 65%;
+  display: flex;
+}
+.video {
+  margin-left: 30px;
+}
