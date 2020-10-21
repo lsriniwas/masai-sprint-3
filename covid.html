@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid</title>
+    <link rel="stylesheet" href="covid.css">
+    <style type="text/css">
+        ::-webkit-scrollbar {width: 6px; height: 4px; background: none; }
+        ::-webkit-scrollbar-thumb { background-color: #000000 }
+        </style>
+  <script src="https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.0.0/themes/dark_earth.min.js" type="text/javascript"></script>
+    
+</head>
+<body>
+    <div class="main">
+         <div class="sidenav">
+                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/global-research-on-novel-coronavirus-2019-ncov">WHO</a>
+                <a href="#">-----</a>
+                <a href="https://www.who.int/about/who-we-are/contact-us">Contact</a>  
+                <a href="#">-----</a>
+                <a href="#">TotalCountries </a>
+            </div>
+             <div class="main-nav">
+                <h2>Covid EMERGENCY</h2>
+                <p>Coronavirus disease (COVID-19) pandemic </p>
+            </div>
+           <div class="data-flex">
+                <div class="box1">New Confirmed
+                    <div class="smallbox">0</div>
+                </div>
+                <div class="box2">Global Confirmed
+                    <div class="smallbox">0</div>
+                </div>
+                <div class="box3">New Deaths
+                    <div class="smallbox">0</div>
+                </div>
+                <div class="box4">Global Deaths
+                    <div class="smallbox">0</div>
+                </div>
+                <div class="box5">New Recovered
+                    <div class="smallbox">0</div>
+                </div>
+                <div class="box6">Global Recovered
+                    <div class="smallbox">0</div>
+                </div>
+           </div>
+
+           <div class="searchCountry">
+                <div class="blue-dash">
+                    <div class="inside-left">
+                    <div class="search-box">  
+                        <form>
+                            <input type="text" name="search" id="search" placeholder="search" onkeyup="data()" autocomplete="off">  
+                        </form>           
+                            <img src="https://www.flaticon.com/svg/static/icons/svg/709/709592.svg" style="width:20px" alt="">
+                            
+                    </div>
+                    <div class="search-table">
+                        <div class="scrollit">
+                            <table class="table">
+                            </table>
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="video">
+                          
+                        <iframe width="400" height="250px" src="https://www.youtube.com/embed/Nx3a9AVbk6I?rel=0&amp;controls=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+                    </div> 
+                    <div class="newsdata" style="width: 400px!important; height: 500px;overflow: scroll">
+                        <div>
+                            <ul >
+                            
+                                  <img src="https://img.etimg.com/thumb/msid-78300276,width-160,height-120,imgsize-/.jpg" alt="...">
+                                  <div class="media-body">
+                                    <a href="https://economictimes.indiatimes.com/news/economy/indicators/covid-19-65-people-suffer-loss-of-income-55-may-seek-loan-recast-says-survey/articleshow/78300276.cms">COVID-19: 65% people suffer loss of income, 55% may seek loan recast, says survey</a>
+                                    The consumer survey report 'Dealing with Debt: How India plans to pay EMIs' by paisabazaar.com was undertaken to gauge the impact of coronavirus pandemic on the Indian borrowers'
+                                </div>
+                            </ul> 
+                            <ul>
+                                  <img src="https://img.etimg.com/thumb/msid-78678035,width-160,height-120,imgsize-/.jpg" alt="...">
+                                  <div>
+                                    <a href="https://economictimes.indiatimes.com/news/politics-and-nation/bengaluru-theatres-to-resume-operations-from-friday-government-issues-guidelines/articleshow/78678035.cms">Bengaluru: Theatres to resume operations from Friday; government issues guidelines</a>
+                                    The theatre owners were sceptical about the business prospects after six months of lockdown in the wake of the coronavirus scare.
+                                </div>
+                            </ul>
+                            <ul>
+                                  <img src="https://img.etimg.com/thumb/msid-78446545,width-160,height-120,imgsize-/.jpg" alt="...">
+                                  <div>
+                                    <a href="https://economictimes.indiatimes.com/industry/services/property-/-cstruction/housing-supply-down-nearly-60-per-cent-in-jan-sep-across-top-7-cities-report/articleshow/78446545.cms">Housing supply down nearly 60 per cent in Jan-Sep across top 7 cities: Report</a>
+                                    Fresh housing supply in January-September 2020 across seven major cities declined to 75,150 units from 1,84,700 units in the same period previous year. This is in line with sales that plunged 57 per cent to 87,460 units, the data showed.
+                                 </div>
+                                
+                              </ul>
+                        </div>
+                    </div>
+
+                   
+               </div>
+                </div>
+                
+           </div>
+          
+           
+           <div class="overpage" style="color: white;"> 
+               <div id="container"></div>   
+               <div class="overpage-in">    
+               
+              </div>    
+           </div>
+  
+    </div>
+    <script src="covid.js"></script>
+</body>
+</html>
