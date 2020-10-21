@@ -1,4 +1,4 @@
-# masai-sprint-3
+# Covid Stats
 
 ## Under Construction 
 
