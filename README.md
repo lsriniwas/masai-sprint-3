@@ -8,6 +8,10 @@
 - Global Deaths
 - New Recovered
 - Global Recovered
+
+![sneekpeek](./images/gitdata.gif)
+---
+## Dashboard
 ![screenshot](./images/module3Dash.png)
 ---
 ## Country stats along with last 20 days on chart
@@ -22,4 +26,4 @@
 👨‍💻 Lanka Sriniwas 
 - linkdin@[Lanka Sriniwas](https://www.linkedin.com/in/lanka-sriniwas-111058193/) 
 - gitHub@[lsriniwas](https://github.com/lsriniwas)
-![yo](./images/gitdata.gif)
+
