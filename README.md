@@ -8,8 +8,8 @@
 - Global Deaths
 - New Recovered
 - Global Recovered
-
-![sneekpeek](./images/gitdata.gif)
+## sneek peek
+![gif](./images/gitdata.gif)
 ---
 ## Dashboard
 ![screenshot](./images/module3Dash.png)
