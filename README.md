@@ -22,6 +22,8 @@
 - Javascript
 - Covid-19 API
 ---
+-ProjectLink(https://lsriniwas.github.io/masai-sprint-3/#)
+---
 ### By
 👨‍💻 Lanka Sriniwas 
 - linkdin@[Lanka Sriniwas](https://www.linkedin.com/in/lanka-sriniwas-111058193/) 
