@@ -1,7 +1,5 @@
 # Covid Stats using [Coronavirus COVID19 API](https://documenter.getpostman.com/view/10808728/SzS8rjbc#9739c95f-ef1d-489b-97a9-0a6dfe2f74d8)
 
-Covid Stats
-
 ## Information on global pandemic and provides stats on the following:
 - New Confirmed
 - Global Confirmed
