@@ -28,3 +28,5 @@
 - linkdin@[Lanka Sriniwas](https://www.linkedin.com/in/lanka-sriniwas-111058193/) 
 - gitHub@[lsriniwas](https://github.com/lsriniwas)
 
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=lsriniwas&repo=masai-sprint-3&show_owner=true)](https://github.com/lsriniwas/masai-sprint-3)
+
